@@ -1,0 +1,68 @@
+.month-notes {
+  background: var(--card, #fff);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* vertically centred: starts at 1/4, ends at 3/4 of layout */
+  margin-top: 12.5%;
+  margin-bottom: 12.5%;
+  min-height: 0;
+  overflow: hidden;
+  align-self: stretch;
+}
+
+.mn-header { flex-shrink: 0; }
+
+.mn-title {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+/* motivational quote */
+.mn-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 700;
+  line-height: 1.45;
+  padding: 8px 12px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+  flex-shrink: 0;
+}
+
+/* textarea fills remaining space */
+.mn-textarea {
+  flex: 1;
+  min-height: 0;
+  border: 1.5px solid var(--accent-soft, #e5e5e5);
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--text);
+  background: transparent;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.mn-textarea::placeholder { color: var(--text-muted); opacity: 0.52; }
+.mn-textarea:focus { border-color: var(--accent); }
+
+.mn-hint {
+  font-size: 10px;
+  color: var(--text-muted);
+  opacity: 0.4;
+  text-align: right;
+  flex-shrink: 0;
+}
