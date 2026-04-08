@@ -33,17 +33,17 @@ export default function App() {
   const handleDayClick = (date) => {
     const { stage, start } = selection;
     if (stage === 'idle' || stage === 'range-ready') {
-      // Step 1: pick start
+      // pick start
       setSelection({ start: date, end: null, stage: 'start-picked' });
     } else if (stage === 'start-picked') {
-      // Step 2: pick end (can be same day = single)
+      // pick end (can be same day = single)
       const s = date < start ? date : start;
       const e = date < start ? start : date;
       setSelection({ start: s, end: e, stage: 'range-ready' });
     }
   };
 
-  // Step 3: user clicks "Open Notes" confirm button
+  // user clicks "Open Notes" confirm button
   const handleConfirm = () => setModalOpen(true);
 
   const handleSave = (data, customTargets) => {

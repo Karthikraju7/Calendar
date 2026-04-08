@@ -10,11 +10,10 @@ export default function HeroImage({ theme, currentDate, onNavigate }) {
       {/* photo */}
       <div className="hero-photo">
         <img src={theme.image} alt={theme.imageAlt} className="hero-img" />
-        {/* subtle bottom gradient so badge text is always legible */}
         <div className="hero-scrim" />
       </div>
 
-      {/* month + year badge — bottom right */}
+      {/* month + year - bottom left */}
       <div className="hero-badge">
         <span className="badge-year">{year}</span>
         <span className="badge-month">{month.toUpperCase()}</span>

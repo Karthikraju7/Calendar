@@ -1,7 +1,5 @@
-// Per-month color system + local asset images
-
 const MONTH_THEMES = [
-  // January — snow/white
+  // January - snow white
   {
     accent: '#4a7fa5',
     accentSoft: '#ddeaf4',
@@ -11,7 +9,7 @@ const MONTH_THEMES = [
     text: '#1a2a38',
     muted: '#6a8499',
   },
-  // February — pink/rose
+  // February - pink
   {
     accent: '#c2547a',
     accentSoft: '#f7d6e4',
@@ -21,7 +19,7 @@ const MONTH_THEMES = [
     text: '#2a1020',
     muted: '#8a5570',
   },
-  // March — fresh green
+  // March - fresh green
   {
     accent: '#2e8b57',
     accentSoft: '#c0e8d4',
@@ -31,7 +29,7 @@ const MONTH_THEMES = [
     text: '#0d2218',
     muted: '#4a7a60',
   },
-  // April — green-blue sky
+  // April - green-blue sky
   {
     accent: '#3a7fbf',
     accentSoft: '#c2ddf5',
@@ -41,7 +39,7 @@ const MONTH_THEMES = [
     text: '#0d1e30',
     muted: '#4a6e8a',
   },
-  // May — sunny yellow
+  // May - sunny yellow
   {
     accent: '#c8900a',
     accentSoft: '#fde8b0',
@@ -51,7 +49,7 @@ const MONTH_THEMES = [
     text: '#261800',
     muted: '#8a6820',
   },
-  // June — beach blue
+  // June - beach blue
   {
     accent: '#1a8fa0',
     accentSoft: '#b8e8f0',
@@ -61,7 +59,7 @@ const MONTH_THEMES = [
     text: '#041820',
     muted: '#3a7080',
   },
-  // July — ocean / sky / monsoon
+  // July - ocean/sky
   {
     accent: '#2e7eb8',
     accentSoft: '#c8e2f5',
@@ -71,7 +69,7 @@ const MONTH_THEMES = [
     text: '#0c1e30',
     muted: '#4a7295',
   },
-  // August — warm gold
+  // August - gold
   {
     accent: '#b87820',
     accentSoft: '#f0dca0',
@@ -81,7 +79,7 @@ const MONTH_THEMES = [
     text: '#241400',
     muted: '#886020',
   },
-  // September — dry brown/orange
+  // September - brown/orange
   {
     accent: '#b05a18',
     accentSoft: '#f0ccac',
@@ -91,7 +89,7 @@ const MONTH_THEMES = [
     text: '#240e00',
     muted: '#8a5030',
   },
-  // October — halloween orange
+  // October - halloween 
   {
     accent: '#d44800',
     accentSoft: '#f9cca8',
@@ -101,7 +99,7 @@ const MONTH_THEMES = [
     text: '#260800',
     muted: '#904030',
   },
-  // November — warm neutral
+  // November - neutral
   {
     accent: '#7a6050',
     accentSoft: '#e0d4cc',
@@ -111,7 +109,7 @@ const MONTH_THEMES = [
     text: '#1c1008',
     muted: '#6a5448',
   },
-  // December — christmas red/white
+  // December - christmas red/white
   {
     accent: '#c42030',
     accentSoft: '#f8c8cc',
